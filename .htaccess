@@ -1,0 +1,20 @@
+RewriteEngine on
+RewriteRule tai-khoan.html $1\_user.php
+RewriteRule login-facebook.html $1\_fbconfig.php
+RewriteRule login-zalo.html $1\_zaloconfig.php
+RewriteRule login-zalo-v2.html $1\_zalov2.php
+RewriteRule login-google.html $1\_ggconfig.php
+RewriteRule tai-khoan-moi.html $1\_usernew.php
+RewriteRule dang-xuat.html $1\_logout.php
+RewriteRule remove-connect.php $1\_remove_ct.php
+RewriteRule remove-kdv.php $1\_remove_pq.php
+RewriteRule remove-mem.php $1\_remove_mb.php
+RewriteRule dang-bai.html $1\_userpost.php
+RewriteRule sua-bai.html $1\_useredit.php
+RewriteRule trang-quan-tri.html $1\_Admin.php
+RewriteRule kiem-duyet-vien.html $1\_mod.php
+RewriteRule tim-mem-ne $1\_search_mb.php
+RewriteRule tim-kiem $1\_tim.php
+RewriteRule search-vip $1\_tim_pro.php
+RewriteRule sitemap.xml $1\sitemap.php
+RewriteRule ^post/([^_]*)_([^_]*)\.html$ /_view.php??name=$1&post=$2 [L]

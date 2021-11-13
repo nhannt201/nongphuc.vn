@@ -1,0 +1,23 @@
+<!--<div class="item active">
+        <img src="<?php echo $getHead->GetSlide(1, "image"); ?>" alt="<?php echo $getHead->GetSlide(1, "heading"); ?>" style="width:100%;">
+        <div class="carousel-caption">
+          <h3><?php echo $getHead->GetSlide(1, "heading"); ?></h3>
+          <p><?php echo $getHead->GetSlide(1, "something"); ?></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="<?php echo $getHead->GetSlide(2, "image"); ?>" alt="<?php echo $getHead->GetSlide(2, "heading"); ?>" style="width:100%;">
+        <div class="carousel-caption">
+          <h3><?php echo $getHead->GetSlide(2, "heading"); ?></h3>
+          <p><?php echo $getHead->GetSlide(2, "something"); ?></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="<?php echo $getHead->GetSlide(3, "image"); ?>" alt="<?php echo $getHead->GetSlide(3, "heading"); ?>" style="width:100%;">
+        <div class="carousel-caption">
+          <h3><?php echo $getHead->GetSlide(3, "heading"); ?></h3>
+          <p><?php echo $getHead->GetSlide(3, "something"); ?></p>
+        </div>
+      </div>-->

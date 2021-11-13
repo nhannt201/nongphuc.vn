@@ -1,0 +1,75 @@
+	<!--Slide-->
+		<div class="panel panel-custom">
+
+		  <div class="panel-heading" id="Slide">Slide - Trình chiếu trang chủ</div>
+
+		  <div class="panel-body">
+				<form method="POST" action="/trang-quan-tri.html#updateslide">
+				<!--Form Slide 1 Mini-->
+				<div class="panel panel-custom">
+				 <div class="panel-heading" >Slide 1</div>
+				<div class="panel-body">
+				<!--Heading-->
+				<div class="input-group">
+				<span class="input-group-addon">Tiêu đề</span>
+				<input type="text" class="form-control" id="heading1" name="heading1" value="<?php echo $admin->GetSlide(1, "heading"); ?>" placeholder="Heading 1" required="required">
+				</div><br/>
+				<!--Text-->
+				 <div class="input-group">
+					<span class="input-group-addon">Mô tả</span>
+					<input type="text" class="form-control" id="txt1" name="txt1" value="<?php echo $admin->GetSlide(1, "something"); ?>" placeholder="Somethings" required="required">
+				</div><br/>
+				<!--LinkIMG-->
+				 <div class="input-group">
+					<span class="input-group-addon">Link ảnh</span>
+					<input type="url" class="form-control" id="linkimg1" name="linkimg1" value="<?php echo $admin->GetSlide(1, "image"); ?>" placeholder="http://abc.com/images/banner1.png" required="required">
+				</div><br/>
+				</div></div>
+			<!--Form Slide  2 Mini-->
+				<div class="panel panel-custom">
+				 <div class="panel-heading" >Slide 2</div>
+				<div class="panel-body">
+				<!--Heading-->
+				<div class="input-group">
+				<span class="input-group-addon">Tiêu đề</span>
+				<input type="text" class="form-control" id="heading2" name="heading2" value="<?php echo $admin->GetSlide(2, "heading"); ?>" placeholder="Heading 2" required="required">
+				</div><br/>
+				<!--Text-->
+				 <div class="input-group">
+					<span class="input-group-addon">Mô tả</span>
+					<input type="text" class="form-control" id="txt2" name="txt2" value="<?php echo $admin->GetSlide(2, "something"); ?>" placeholder="Somethings" required="required">
+				</div><br/>
+				<!--LinkIMG-->
+				 <div class="input-group">
+					<span class="input-group-addon">Link ảnh</span>
+					<input type="url" class="form-control" id="linkimg2" name="linkimg2" value="<?php echo $admin->GetSlide(2, "image"); ?>" placeholder="http://abc.com/images/banner2.png" required="required">
+				</div><br/>
+				</div></div>
+				<!--Form Slide 3 Mini-->
+				<div class="panel panel-custom">
+				 <div class="panel-heading" >Slide 3</div>
+				<div class="panel-body">
+				<!--Heading-->
+				<div class="input-group">
+				<span class="input-group-addon">Tiêu đề</span>
+				<input type="text" class="form-control" id="heading3" name="heading3" value="<?php echo $admin->GetSlide(3, "heading"); ?>" placeholder="Heading 3" required="required">
+				</div><br/>
+				<!--Text-->
+				 <div class="input-group">
+					<span class="input-group-addon">Mô tả</span>
+					<input type="text" class="form-control" id="txt3" name="txt3" value="<?php echo $admin->GetSlide(3, "something"); ?>" placeholder="Somethings" required="required">
+				</div><br/>
+				<!--LinkIMG-->
+				 <div class="input-group">
+					<span class="input-group-addon">Link ảnh</span>
+					<input type="url" class="form-control" id="linkimg3" name="linkimg3" value="<?php echo $admin->GetSlide(3, "image"); ?>" placeholder="http://abc.com/images/banner3.png" required="required">
+				</div><br/>
+				</div></div>
+				<!--POST-->	
+					<div class="text-right">
+					 <input type="submit" class="btn btn-success btn-sm" name="post_slide" id="post_slide" value="Lưu cấu hình"/>
+					</div></form>
+		  </div>
+
+		</div>
+		<!--End Form nho-->

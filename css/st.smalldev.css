@@ -1,0 +1,37 @@
+
+   /* small desktop */
+@media all and (max-width: 1200px) {
+	#go_top_mb {
+		   display: none;
+	   }
+	#name_mb {
+		   display: none;
+	   }
+}
+
+/* tablet */
+@media all and (max-width: 1024px) {
+	#go_top {
+		   display: none;
+	   }
+	#name_pc {
+		   display: none;
+	   }
+	#name_mb {
+		   display: block;
+	   }
+
+}
+
+/* mobile phone */
+@media all and (max-width: 768px) {
+    #go_top {
+		   display: none;
+	   }
+	#name_pc {
+		   display: none;
+	   }
+	#name_mb {
+		   display: block;
+	   }
+}

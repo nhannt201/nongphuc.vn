@@ -1,0 +1,5 @@
+Để chèn mã quảng cáo tuỳ chỉnh của Google hoặc các mạng quảng cáo khác bằng Javascript.
+Vui lòng edit thủ công và dán mã vào cuối file head.php và head_view.php
+-----------------------
+Đối với quảng cáo banner bằng hình ảnh có URL, bạn có thể edit trong trang quản trị của Admin.
+Nếu có nhu cầu cao hơn bạn có thể edit các file trong thư mục user để chèn quảng cáo vào các vị trí mong muốn. (Không khuyến khích)

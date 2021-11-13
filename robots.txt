@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /inl/
+Disallow: /src/
+Disallow: /vendor/
+Disallow: /vendor2/
+Disallow: /privacy-policy.html
